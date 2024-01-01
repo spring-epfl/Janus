@@ -1,0 +1,11 @@
+[package]
+name = "janus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+rand_xoshiro = "0.6.0"
+
+[package.metadata.fortanix-sgx]
+stack-size=0x10000000
